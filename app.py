@@ -60,7 +60,3 @@ if st.button("Predict"):
     st.write(f"Predicted Prices: {predicted_prices.flatten()}")
     recommendation = "Buy" if predicted_prices[0, 3] > predicted_prices[0, 0] else "Sell"
     st.write(f"Recommendation: {recommendation}")
-
-# Run the app
-if __name__ == '__main__':
-    st.run()
