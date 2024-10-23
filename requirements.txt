@@ -1,0 +1,5 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow  # or keras if you're using standalone Keras
